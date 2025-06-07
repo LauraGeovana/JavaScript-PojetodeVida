@@ -25,6 +25,7 @@ contadores[1].textContent = calculaTempo(tempoObjetivo2);
 contadores[2].textContent = calculaTempo(tempoObjetivo3);
 contadores[3].textContent = calculaTempo(tempoObjetivo4);
 
+
 function calculaTempo(tempoObjetivo) {
     let tempoAtual = new Date();
     let tempoFinal = tempoObjetivo - tempoAtual;
