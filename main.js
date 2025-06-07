@@ -36,7 +36,7 @@ function calculaTempo(tempoObjetivo) {
     horas %= 24;
     {
         return [dias, horas, minutos, segundos];
-    }
+    } 
 }
 
 function atualizaCronometro() {
